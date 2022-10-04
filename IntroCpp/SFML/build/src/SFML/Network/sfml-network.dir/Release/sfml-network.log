@@ -1,0 +1,16 @@
+﻿  Building Custom Rule D:/Projets/CppJeux2D/SFML-2.5.1/src/SFML/Network/CMakeLists.txt
+  Ftp.cpp
+  Http.cpp
+  IpAddress.cpp
+D:\Projets\CppJeux2D\SFML-2.5.1\src\SFML\Network\IpAddress.cpp(92,12): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+D:\Projets\CppJeux2D\SFML-2.5.1\src\SFML\Network\IpAddress.cpp(184,21): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  Packet.cpp
+  Socket.cpp
+  SocketSelector.cpp
+  TcpListener.cpp
+  TcpSocket.cpp
+  UdpSocket.cpp
+  SocketImpl.cpp
+  Génération de code en cours...
+     Création de la bibliothèque D:/Projets/CppJeux2D/build/lib/Release/sfml-network.lib et de l'objet D:/Projets/CppJeux2D/build/lib/Release/sfml-network.exp
+  sfml-network.vcxproj -> D:\Projets\CppJeux2D\build\lib\Release\sfml-network-2.dll

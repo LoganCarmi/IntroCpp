@@ -1,0 +1,10 @@
+^D:\PROJETS\CPPJEUX2D\BUILD\CMAKEFILES\2C8599F79C240B0EBACBA264AA3847EC\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Projets/CppJeux2D/SFML-2.5.1 -BD:/Projets/CppJeux2D/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Projets/CppJeux2D/build/SFML.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
